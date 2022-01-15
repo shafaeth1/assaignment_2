@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.link-button{
+    border-radius: 41px;
+    background-color:  #E02C6D;
+    color: white
+    ;
+    text-decoration: none;
+    padding: 10px;
+}
+.container{
+    width: 1080px;
+   margin-top: 93px;
+   position: relative;
+}
+.navber_logo{
+    flex: 1;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    width: 243px;
+    height: 52px;
+    list-style: none;
+}
+.top_section{
+    display: flex;
+}
+.left_side{
+    margin: auto 0;
+}
+.top_h2{
+    width: 582px;
+    height: 133px;
+    font-size: 52px;
+    line-height: 70px;
+}
+.top_p{
+    Width: 
+505px;
+Height:
+60.9px;
+line-height: 24px;
+margin-top: 16px;
+margin-bottom: 32px;
+}
+.right_side img{
+    width: 440px;
+    height: 414px;
+}
+.section_title{
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 600;
+    width: 262px;
+    height: 70px;
+    color:  #3A3A3A;
+    margin:0 auto
+    ;
+}
+
+.Course{
+    margin: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background: #ffffff;
+}
+.Courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+.Course .Courses_banner img{
+    width: 300px;
+    height: 256px;
+}
+.coures_title{
+    font-size: 28px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filed{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.discription{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.see_more{
+    position: absolute;
+    text-decoration: none;
+    color:  #E02C6DDE;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+
+.footer_area{
+   background-color: rgba(0, 0, 128, 0.692);
+   margin-top: 100px; 
+}
+.footer_div{
+    text-align: center;
+    color: #ffffff;
+padding: 50px;
+}
+.footer_h2{
+    font-size: 24px;
+}
+.footer_p{
+    font-size: 14px;
+}
+.social_icons{
+    margin-top: 17px;
+
+}
+.social_icons .icon{
+    padding-left: 16px;
+}
+/* -----------------
+     media quary
+------------------- */
+/* mobile device */
+@media only screen and (max-width:360px) {
+    main{
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+    }
+   .container{
+       width: 100%;
+   }
+   .navber_logo{
+       margin: 0 auto;
+       font-size: 16px;
+       width: 162px;
+       height: 24px;
+       font-weight: 700;
+       line-height: 14px;
+   }
+   .top_section{
+       display: grid;
+       grid-template-rows: repeat(2,1fr);
+   }
+   .left_side{
+       margin: 0 auto;
+   }
+   .right_side{
+       margin: 0 auto;
+   }
+   .right_side img{
+       height:190px;
+       width: 202px;
+       margin-top: 50px;
+   }
+   .top_h2{
+       width: 330px;
+       height: 78px;
+       font-size: 24px;
+       line-height: 42px;
+       font-weight: 700;
+   }
+   .top_p{
+       font-size: 12px;
+       width: 330px;
+   }
+  
+   .Courses{
+       display: grid;
+       grid-template-rows: repeat(6,1fr);
+       grid-template-columns: none;
+        
+   }
+   .see_more{
+       margin-right: 28px;
+   }
+   .fa-arrow-right{
+    margin-left: 5px;
+}
+   .footer_area{
+       width: 100%;
+   }
+}
