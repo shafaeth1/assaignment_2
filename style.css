@@ -215,13 +215,14 @@ padding: 50px;
            width: 100%;
        }
        .navber_logo{
-           margin: 0 auto;
-           font-size: 16px;
-           width: 162px;
-           height: 24px;
-           font-weight: 700;
-           line-height: 14px;
-       }
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+        width: 243px;
+        height: 52px;
+        list-style: none;
+    }
    
        .top_section{
            display: grid;
@@ -284,18 +285,16 @@ padding: 50px;
        width: 100%;
    }
    .navber_logo{
-       margin: 0 auto;
-       font-size: 16px;
-       width: 162px;
-       height: 24px;
-       font-weight: 700;
-       line-height: 14px;
-   }
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    width: 243px;
+    height: 52px;
+    list-style: none;
+}
 
-   .top_section{
-       
-       
-   }
+  
    .left_side{
        margin: 0 auto;
    }
@@ -310,7 +309,7 @@ padding: 50px;
    .top_h2{
        width: 330px;
        height: 78px;
-       font-size: 26px;
+       font-size: 28px;
        line-height: 42px;
        font-weight: 700;
    }
