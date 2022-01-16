@@ -196,4 +196,74 @@ padding: 50px;
    .footer_area{
        width: 100%;
    }
+   
+
+}
+/* teblet device */
+@media only screen and ( max-width:770px){
+   
+        main{
+            display: flex;
+           align-items: center;
+            flex-direction: column;
+        }
+       .container{
+           width: 100%;
+       }
+       .navber_logo{
+           margin: 0 auto;
+           font-size: 16px;
+           width: 162px;
+           height: 24px;
+           font-weight: 700;
+           line-height: 14px;
+       }
+   
+       .top_section{
+           display: grid;
+           grid-template-rows: repeat(2,1fr);
+       }
+       .left_side{
+           margin: 0 auto;
+       }
+       .right_side{
+           margin: 0 auto;
+       }
+       .right_side img{
+        width: 376px;
+        height: 362px;
+    
+    }
+       .top_h2{
+           width: 330px;
+           height: 78px;
+           font-size: 26px;
+           line-height: 42px;
+           font-weight: 700;
+       }
+       .top_p{
+           font-size: 12px;
+           width: 330px;
+       }
+      
+       .Courses{
+           display: grid;
+           grid-template-columns: none;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            justify-content: center;
+       }
+       .Course .Courses_banner img{
+           width: 314px;
+           height: 256px;
+       }
+       .see_more{
+           margin-right: 28px;
+       }
+       .fa-arrow-right{
+        margin-left: 5px;
+    }
+       .footer_area{
+           width: 100%;
+       }
 }
