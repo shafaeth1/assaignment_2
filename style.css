@@ -137,7 +137,7 @@ padding: 50px;
      media quary
 ------------------- */
 /* mobile device */
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:480px) {
     main{
         display: flex;
        align-items: center;
@@ -185,8 +185,12 @@ padding: 50px;
        display: grid;
         grid-template-columns: none;
         grid-template-rows: repeat(6,1fr);
-        
+        width: 100%;
    }
+   .Course .Courses_banner img{
+    width: 100%;
+    height: 100%;
+  }
    .see_more{
        margin-right: 28px;
    }
@@ -200,7 +204,7 @@ padding: 50px;
 
 }
 /* teblet device */
-@media only screen and (min-width:361px) and ( max-width:770px){
+@media only screen and (min-width:481px) and ( max-width:770px){
    
         main{
             display: flex;
@@ -247,6 +251,7 @@ padding: 50px;
        }
       
        .Courses{
+           width: 100%;
            display: grid;
            grid-template-columns: none;
             grid-template-columns: repeat(2,1fr);
@@ -254,8 +259,8 @@ padding: 50px;
             justify-content: center;
        }
        .Course .Courses_banner img{
-           width: 314px;
-           height: 256px;
+         width: 100%;
+         height: 100%;
        }
        .see_more{
            margin-right: 28px;
@@ -266,4 +271,73 @@ padding: 50px;
        .footer_area{
            width: 100%;
        }
+}
+
+@media only screen and (min-width:771px) and ( max-width:1080px){
+   
+    main{
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+    }
+   .container{
+       width: 100%;
+   }
+   .navber_logo{
+       margin: 0 auto;
+       font-size: 16px;
+       width: 162px;
+       height: 24px;
+       font-weight: 700;
+       line-height: 14px;
+   }
+
+   .top_section{
+       
+       
+   }
+   .left_side{
+       margin: 0 auto;
+   }
+   .right_side{
+       margin: 0 auto;
+   }
+   .right_side img{
+    width: 376px;
+    height: 362px;
+
+}
+   .top_h2{
+       width: 330px;
+       height: 78px;
+       font-size: 26px;
+       line-height: 42px;
+       font-weight: 700;
+   }
+   .top_p{
+       font-size: 12px;
+       width: 330px;
+   }
+  
+   .Courses{
+       width: 100%;
+       display: grid;
+       
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        justify-content: center;
+   }
+   .Course .Courses_banner img{
+     width: 100%;
+     height: 100%;
+   }
+   .see_more{
+       margin-right: 28px;
+   }
+   .fa-arrow-right{
+    margin-left: 5px;
+}
+   .footer_area{
+       width: 100%;
+   }
 }
